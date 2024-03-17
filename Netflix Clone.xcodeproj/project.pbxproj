@@ -16,6 +16,7 @@
 		6D8D51282BA7035D00C00288 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8D51272BA7035D00C00288 /* UpcomingViewController.swift */; };
 		6D8D512A2BA7039B00C00288 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8D51292BA7039B00C00288 /* SearchViewController.swift */; };
 		6D8D512C2BA703C800C00288 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8D512B2BA703C800C00288 /* DownloadsViewController.swift */; };
+		6D8D51332BA71BDB00C00288 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8D51322BA71BDB00C00288 /* CollectionViewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		6D8D51272BA7035D00C00288 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		6D8D51292BA7039B00C00288 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		6D8D512B2BA703C800C00288 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		6D8D51322BA71BDB00C00288 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		6D8D512D2BA71AFB00C00288 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6D8D51322BA71BDB00C00288 /* CollectionViewTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			files = (
 				6D8D512A2BA7039B00C00288 /* SearchViewController.swift in Sources */,
 				6D388C6E2BA46F9600278DE5 /* MainTabBarViewController.swift in Sources */,
+				6D8D51332BA71BDB00C00288 /* CollectionViewTableViewCell.swift in Sources */,
 				6D8D512C2BA703C800C00288 /* DownloadsViewController.swift in Sources */,
 				6D388C6A2BA46F9600278DE5 /* AppDelegate.swift in Sources */,
 				6D388C6C2BA46F9600278DE5 /* SceneDelegate.swift in Sources */,
