@@ -115,20 +115,27 @@ class APICaller {
     }
     
     func getDiscoverMovies(completion: @escaping (Result<[Title], Error>) -> Void) {
-        guard let url = URL(string: "\(Constants.baseURL)/3/movie/discover?api_key=\(Constants.API_KEY)") else {return}
+        guard let url = URL(string: "\(Constants.baseURL)/3/discover/movie?api_key=\(Constants.API_KEY)&include_video=false&language=en-US") else {return}
         let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, _, error in
             guard let data = data, error == nil else {
+                
                 return
             }
-            
+           
+            //NOTE: decoding error
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
+                print(results)
                 completion(.success(results.results))
             } catch {
+                print("This is the error", error.localizedDescription)
+                print("This is the error", error)
                 completion(.failure(APIError.failedToGetData))
             }
         }
         
         task.resume()
     }
+    
+    
 }
