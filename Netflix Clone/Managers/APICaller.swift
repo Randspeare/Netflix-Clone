@@ -122,10 +122,8 @@ class APICaller {
                 return
             }
            
-            //NOTE: decoding error
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
-                print(results)
                 completion(.success(results.results))
             } catch {
                 print("This is the error", error.localizedDescription)
