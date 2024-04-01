@@ -48,7 +48,7 @@ class HomeViewController: UIViewController {
     
     private func configureHeaderView() {
         
-        APICaller.shared.getTredingMovies { [weak self] result in
+        APICaller.shared.getTrendingMovies { [weak self] result in
             switch result {
             case .success(let titles):
                 let selectedTitle = titles.randomElement()
@@ -128,7 +128,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         
         switch indexPath.section {
         case Sections.TrendingMovies.rawValue:
-            APICaller.shared.getTredingMovies { result in
+            APICaller.shared.getTrendingMovies { result in
                 switch result {
                 case .success(let titles):
                     cell.configure(with: titles)
