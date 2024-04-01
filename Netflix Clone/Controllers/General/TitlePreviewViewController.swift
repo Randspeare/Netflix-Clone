@@ -93,10 +93,11 @@ class TitlePreviewViewController: UIViewController {
         titleLabel.text = model.title
         overviewLabel.text = model.titleOverview
         
-        guard let url = URL(string: "https://www.youtube.com/embed/\(model.youtubeVideo.id.videoId)") else {
+        guard let url = URL(string: "https://www.youtube.com/embed/\(model.youtubeVideo.id.videoId ?? "")") else {
             return
         }
         
+        print(url)
         webView.load(URLRequest(url: url))
     }
 }
