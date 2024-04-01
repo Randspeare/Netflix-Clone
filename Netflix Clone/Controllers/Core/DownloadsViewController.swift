@@ -26,6 +26,7 @@ class DownloadsViewController: UIViewController {
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationController?.navigationItem.largeTitleDisplayMode = .always
         view.addSubview(downloadedTable)
+        
         downloadedTable.dataSource = self
         downloadedTable.delegate = self
         fetchLocalStorageForDownload()
