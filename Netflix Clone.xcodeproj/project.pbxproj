@@ -49,6 +49,7 @@
 		6D62430B2BB1A579005B2C62 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
 		6D62430D2BB1A892005B2C62 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
 		6D6B640A2BA7E07F0091375D /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		6D77C7702BB98921008C78B1 /* NetflixClone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NetflixClone.entitlements; sourceTree = "<group>"; };
 		6D7E72822BA9BD750037A9D0 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		6D7E72842BA9C59A0037A9D0 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		6D7E72862BA9CE200037A9D0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -104,6 +105,7 @@
 				6D388C742BA46F9800278DE5 /* LaunchScreen.storyboard */,
 				6D388C772BA46F9800278DE5 /* Info.plist */,
 				6D2D66EE2BB662E4001317A2 /* NetflixCloneModel.xcdatamodeld */,
+				6D77C7702BB98921008C78B1 /* NetflixClone.entitlements */,
 			);
 			path = "Netflix Clone";
 			sourceTree = "<group>";
@@ -425,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "/Users/ananaomierlandez/Desktop/SWIFT/Netflix Clone/Netflix Clone/NetflixClone.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PJNX2WPFZ7;
@@ -452,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "/Users/ananaomierlandez/Desktop/SWIFT/Netflix Clone/Netflix Clone/NetflixClone.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PJNX2WPFZ7;
